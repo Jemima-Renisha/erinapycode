@@ -24,5 +24,6 @@ def playgame():
     computerinput = getcomputerchoice()
     playerinput = playerchoice()
     print("computer choice is",computerinput)
-    result = findwinner()
+    result = findwinner(playerinput, computerinput)
     print(result)
+playgame()   #function is called to execute the code
