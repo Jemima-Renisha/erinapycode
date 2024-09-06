@@ -19,3 +19,10 @@ def findwinner(playerinput, computerinput):
         return "you win"
     else:
         return "computer win"
+
+def playgame():
+    computerinput = getcomputerchoice()
+    playerinput = playerchoice()
+    print("computer choice is",computerinput)
+    result = findwinner()
+    print(result)
